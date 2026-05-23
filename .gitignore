@@ -1,14 +1,24 @@
+# macOS
+.DS_Store
+
 # Environments
 .venv/
 env/
+venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Data sets (Keep your Kaggle data local!)
-*.csv
-*.txt
+# Local data and generated artifacts
+**/data/
+**/outputs/
+**/models/
 
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
+
+# Misc
+notes.md
